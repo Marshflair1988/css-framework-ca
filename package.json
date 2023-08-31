@@ -4,7 +4,7 @@
   "description": "A social media platform built with css frameworks and bootstrap",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass src/scss:dist/css"
   },
   "repository": {
     "type": "git",
