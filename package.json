@@ -15,10 +15,16 @@
     "frameworks",
     "bootstrap"
   ],
-  "author": "Marsh Woolgar <marshwoolgar>",
+  "author": "Marsh Woolgar <marshwoolgar@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Marshflair1988/css-framework-ca/issues"
   },
-  "homepage": "https://github.com/Marshflair1988/css-framework-ca#readme"
+  "homepage": "https://github.com/Marshflair1988/css-framework-ca#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  },
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
 }
