@@ -1,8 +1,43 @@
-.test {
-  display: none;
-}
-.test-nest {
-  display: block;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'poppins', sans-serif;
+  background: #ececec
 }
 
-/*# sourceMappingURL=styles.css.map */
+
+/*--------------------Login Container--------------------*/
+
+.box-area {
+  width: 930px;
+}
+
+/*--------------------Right Box--------------------*/
+
+.right-box {
+  padding: 40px 30px 40px 40px;
+}
+
+/*--------------------Custom placeholder--------------------*/
+
+::placeholder {
+  font-size: 16px;
+}
+
+/*--------------------For small screens--------------------*/
+
+@media only screen and (max-width: 768px) {
+
+  .box-area {
+    margin: 0 10px;
+  }
+
+  .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .right-box {
+    padding: 20px;
+  }
+}
